@@ -1,0 +1,1019 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cardápio</title>
+    <link rel="shortcut icon" href="img/logo-edit.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="shortcut icon" href="img/logo-edit-final.png" type="image/x-icon">
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    rel="stylesheet"
+    />
+    <link
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    rel="stylesheet"
+    />
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css"
+    rel="stylesheet"
+    />
+</head>
+  <body>
+    
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+    <nav class="navbar navbar-expand-lg bg-body-w shadow p-3 mb-5 bg-body-tertiary rounded">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" href="index.html" target="_blank"><img src="img/logo-edit-final.png" alt=""></a>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contato.html">Contato</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="galeria.html">Galeria</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Proucure aqui" aria-label="Search">
+              <button class="btn btn-outline-light" style="background-color: rgb(255, 196, 0);" type="submit" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+  
+      <div class="center">
+
+
+  <div class="container">
+    <div class="container text-center">
+        <div class="row">
+
+          <div class="col-3 ">
+            <div class="card">
+                <img src="img/pasteldecalabresa.avif" class="img-card" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Pastel de calabresa</h5>
+                  <ul class="card-text">
+                    <li>Médio</li>
+                    <li>Grande</li>
+                  </ul>
+                  <a href="#" type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal1">Ver mais</a>
+                </div>
+              </div>
+          </div>
+     
+          <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header container">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Pastel de calabresa</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="pastel-de-calabresa">
+                    </div>
+                      <h6>Acompanhamentos</h6>
+                      <form action="" class="acompanhamentos-form"> 
+                        <ul class="ul-aompanhamentos">
+                          <input type="radio" name="" id=""><li>Coca-Cola 300ml</li>
+                          <input type="radio" name="" id=""><li>Dolly 300ml</li>
+                          <input type="radio" name="" id=""><li>Fanta 300ml</li>
+                        </ul>
+                      </form>
+                  
+                </div>
+                <div class="modal-footer">
+                  <p class="total-footer">Total: </p>
+                  <button type="button" class="btn btn-success" >Comprar</button>
+                  <button type="button" class="btn btn-warning">Adicionar ao carrinho</button>
+                </div>
+              </div>
+            </div>
+          </div>
+           
+          <div class="col-3">
+            <div class="card">
+                <img src="img/pasteldecarne3.jpg" class="img-card" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Pastel de carne</h5>
+                  <ul class="card-text">
+                    <li>Médio</li>
+                    <li>Grande</li>
+                  </ul>
+                  <a href="#" type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal2">Ver mais</a>
+                </div>
+              </div>
+            </div>
+          
+            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Pastel de carne</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                  <div class="pasteldecarne3"></div>
+                  <h6>Acompanhamentos</h6>
+                  <form action="" class="acompanhamentos-form"> 
+                    <ul class="ul-aompanhamentos">
+                      <input type="radio" name="" id=""><li>Coca-Cola 300ml</li>
+                      <input type="radio" name="" id=""><li>Dolly 300ml</li>
+                      <input type="radio" name="" id=""><li>Fanta 300ml</li>
+                    </ul>
+                  </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-success">Comprar</button>
+                    <button type="button" class="btn btn-warning">Adicionar ao carrinho</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+            <div class="col-3">
+                <div class="card" >
+                    <img src="img/pasteldecarneseca.jpg" class="img-card" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Pastel de carne seca</h5>
+                      <ul class="card-text">
+                        <li>Médio</li>
+                        <li>Grande</li>
+                      </ul>
+                      <a href="#" type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal3">Ver mais</a>
+                    </div>
+                  </div>
+            </div>
+ 
+            <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Pastel de carne seca</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="pasteldecarneseca"></div>
+                    <h6>Acompanhamentos</h6>
+                    <form action="" class="acompanhamentos-form"> 
+                      <ul class="ul-aompanhamentos">
+                        <input type="radio" name="" id=""><li>Coca-Cola 300ml</li>
+                        <input type="radio" name="" id=""><li>Dolly 300ml</li>
+                        <input type="radio" name="" id=""><li>Fanta 300ml</li>
+                      </ul>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-success">Comprar</button>
+                    <button type="button" class="btn btn-warning">Adicionar ao carrinho</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-3">
+                <div class="card" >
+                    <img src="img/pasteldefrango.png" class="img-card" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Pastel de Frango Desfiado</h5>
+                      <ul class="card-text">
+                        <li>Médio</li>
+                        <li>Grande</li>
+                      </ul>
+                      <a href="#" type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal4">Ver mais</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Pastel de frango desfiado</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="pasteldefrango"></div>
+                    <h6>Acompanhamentos</h6>
+                    <form action="" class="acompanhamentos-form"> 
+                      <ul class="ul-aompanhamentos">
+                        <input type="radio" name="" id=""><li>Coca-Cola 300ml</li>
+                        <input type="radio" name="" id=""><li>Dolly 300ml</li>
+                        <input type="radio" name="" id=""><li>Fanta 300ml</li>
+                      </ul>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-success">Comprar</button>
+                    <button type="button" class="btn btn-warning">Adicionar ao carrinho</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+         
+        </div>
+
+        <div class="row">
+
+            <div class="col-3 ">
+              <div class="card border border-black" >
+                  <img src="imagem pastel/Carne-com-Ovos.jpg" class="img-card" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Pastel de Carne Moída e Ovo Cozido</h5>
+                    <ul class="card-text">
+                      <li>Médio</li>
+                      <li>Grande</li>
+                    </ul>
+                    <a href="#" type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal5">Ver mais</a>
+                  </div>
+                </div>
+            </div>
+  
+            <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Pastel de carne moída e ovo cozido</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                  <div class="carne-com-ovos"></div>
+                  <h6>Acompanhamentos</h6>
+                  <form action="" class="acompanhamentos-form"> 
+                    <ul class="ul-aompanhamentos">
+                      <input type="radio" name="" id=""><li>Coca-Cola 300ml</li>
+                      <input type="radio" name="" id=""><li>Dolly 300ml</li>
+                      <input type="radio" name="" id=""><li>Fanta 300ml</li>
+                    </ul>
+                  </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-success">Comprar</button>
+                    <button type="button" class="btn btn-warning">Adicionar ao carrinho</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="card border border-black" >
+                  <img src="imagem pastel/Palmito-com-queijo.jpg" class="img-card" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Pastel de Palmito com Queijo Ralado</h5>
+                    <ul class="card-text">
+                      <li>Médio</li>
+                      <li>Grande</li>
+                    </ul>
+                    <a href="#" type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal6">Ver mais</a>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Pastel de palmito com queijo</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    <div class="pasteldepalmitocomqueijoralado"></div>
+                    <h6>Acompanhamentos</h6>
+                    <form action="" class="acompanhamentos-form"> 
+                      <ul class="ul-aompanhamentos">
+                        <input type="radio" name="" id=""><li>Coca-Cola 300ml</li>
+                        <input type="radio" name="" id=""><li>Dolly 300ml</li>
+                        <input type="radio" name="" id=""><li>Fanta 300ml</li>
+                      </ul>
+                    </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-success">Comprar</button>
+                      <button type="button" class="btn btn-warning">Adicionar ao carrinho</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-3">
+                  <div class="card border border-black" >
+                      <img src="imagem pastel/Frango-com-catupiry.jpg" class="img-card" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Pastel Especial de Frango com Catupiry</h5>
+                        <ul class="card-text">
+                          <li>Médio</li>
+                          <li>Grande</li>
+                        </ul>
+                        <a href="#" type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal7">Ver mais</a>
+                      </div>
+                    </div>
+              </div>
+  
+              <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Pastel especial de frango com catupiry</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    <div class="frangocomcatupiry"></div>
+                    <h6>Acompanhamentos</h6>
+                    <form action="" class="acompanhamentos-form"> 
+                      <ul class="ul-aompanhamentos">
+                        <input type="radio" name="" id=""><li>Coca-Cola 300ml</li>
+                        <input type="radio" name="" id=""><li>Dolly 300ml</li>
+                        <input type="radio" name="" id=""><li>Fanta 300ml</li>
+                      </ul>
+                    </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-success">Comprar</button>
+                      <button type="button" class="btn btn-warning">Adicionar ao carrinho</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-3">
+                  <div class="card border border-black" >
+                      <img src="imagem pastel/Palmito-com-camarao.jpg" class="img-card" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Pastel Especial de Palmito com Camarão</h5>
+                        <ul class="card-text">
+                          <li>Médio</li>
+                          <li>Grande</li>
+                        </ul>
+                        <a href="#" type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal8">Ver mais</a>
+                      </div>
+                    </div>
+              </div>
+  
+              <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Pastel de palmito com camarão</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="palmitocomcamarao"></div>
+                      <h6>Acompanhamentos</h6>
+                      <form action="" class="acompanhamentos-form"> 
+                        <ul class="ul-aompanhamentos">
+                          <input type="radio" name="" id=""><li>Coca-Cola 300ml</li>
+                          <input type="radio" name="" id=""><li>Dolly 300ml</li>
+                          <input type="radio" name="" id=""><li>Fanta 300ml</li>
+                        </ul>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-success" >Comprar</button>
+                    <button type="button" class="btn btn-warning">Adicionar ao carrinho</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+
+          <div class="row">
+
+            <div class="col-3">
+              <div class="card border border-black" >
+                  <img src="imagem pastel/Queijo-e-Presunto.jpg" class="img-card" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Pastel Especial de Queijo com Presunto</h5>
+                    <ul class="card-text">
+                      <li>Médio</li>
+                      <li>Grande</li>
+                    </ul>
+                    <a href="#" type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal9">Ver mais</a>
+                  </div>
+                </div>
+            </div>
+  
+            <div class="modal fade" id="exampleModal9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">pastel especial de queijo com presunto</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="queijocompresunto"></div>
+                    <h6>Acompanhamentos</h6>
+                    <form action="" class="acompanhamentos-form"> 
+                      <ul class="ul-aompanhamentos">
+                        <input type="radio" name="" id=""><li>Coca-Cola 300ml</li>
+                        <input type="radio" name="" id=""><li>Dolly 300ml</li>
+                        <input type="radio" name="" id=""><li>Fanta 300ml</li>
+                      </ul>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-success" >Comprar</button>
+                    <button type="button" class="btn btn-warning">Adicionar ao carrinho</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="card border border-black" >
+                  <img src="imagem pastel/Palmito-com-cheddar.jpg" class="img-card" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Pastel de Palmito com Cheddar</h5>
+                    <ul class="card-text">
+                      <li>Médio</li>
+                      <li>Grande</li>
+                    </ul>
+                    <a href="#" type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal10">Ver mais</a>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="modal fade" id="exampleModal10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">pastel de palmito com cheddar</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="palmito-vheddar"></div>
+                      <h6>Acompanhamentos</h6>
+                      <form action="" class="acompanhamentos-form"> 
+                        <ul class="ul-aompanhamentos">
+                          <input type="radio" name="" id=""><li>Coca-Cola 300ml</li>
+                          <input type="radio" name="" id=""><li>Dolly 300ml</li>
+                          <input type="radio" name="" id=""><li>Fanta 300ml</li>
+                        </ul>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-success" >Comprar</button>
+                      <button type="button" class="btn btn-warning">Adicionar ao carrinho</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-3">
+                  <div class="card border border-black" >
+                      <img src="imagem pastel/Pizza.jpg" class="img-card" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Pastel de Calabresa com Queijo</h5>
+                        <ul class="card-text">
+                          <li>Médio</li>
+                          <li>Grande</li>
+                        </ul>
+                        <a href="#" type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal11">Ver mais</a>
+                      </div>
+                    </div>
+              </div>
+  
+              <div class="modal fade" id="exampleModal11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Pastel de calabresa com queijo</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="pizza"></div>
+                      <h6>Acompanhamentos</h6>
+                      <form action="" class="acompanhamentos-form"> 
+                        <ul class="ul-aompanhamentos">
+                          <input type="radio" name="" id=""><li>Coca-Cola 300ml</li>
+                          <input type="radio" name="" id=""><li>Dolly 300ml</li>
+                          <input type="radio" name="" id=""><li>Fanta 300ml</li>
+                        </ul>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-success" >Comprar</button>
+                      <button type="button" class="btn btn-warning">Adicionar ao carrinho</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-3">
+                  <div class="card border border-black" >
+                      <img src="imagem pastel/Calabresa-com-queijo.jpg" class="img-card" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Pastel de Calabresa com Queijo</h5>
+                        <ul class="card-text">
+                          <li>Médio</li>
+                          <li>Grande</li>
+                        </ul>
+                        <a href="#" type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal12">Ver mais</a>
+                      </div>
+                    </div>
+              </div>
+  
+              <div class="modal fade" id="exampleModal12" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Pastel de Calabresa com Queijo</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="calabresa-queijo"></div>
+                      <h6>Acompanhamentos</h6>
+                      <form action="" class="acompanhamentos-form"> 
+                        <ul class="ul-aompanhamentos">
+                          <input type="radio" name="" id=""><li>Coca-Cola 300ml</li>
+                          <input type="radio" name="" id=""><li>Dolly 300ml</li>
+                          <input type="radio" name="" id=""><li>Fanta 300ml</li>
+                        </ul>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-success" >Comprar</button>
+                      <button type="button" class="btn btn-warning">Adicionar ao carrinho</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+
+          <div class="row">
+
+            <div class="col-3">
+              <div class="card border border-black" >
+                  <img src="imagem pastel/pastel-de-chocolate-com-morango.jpg" class="img-card" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Pastel de Chocolate com Morango</h5>
+                    <ul class="card-text">
+                      <li>Médio</li>
+                      <li>Grande</li>
+                    </ul>
+                    <a href="#" type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal13">Ver mais</a>
+                  </div>
+                </div>
+            </div>
+  
+            <div class="modal fade" id="exampleModal13" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Pastel de chocolate com morango</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="brigadeirocommorango"></div>
+                    <h6>Acompanhamentos</h6>
+                    <form action="" class="acompanhamentos-form"> 
+                      <ul class="ul-aompanhamentos">
+                        <input type="radio" name="" id=""><li>Coca-Cola 300ml</li>
+                        <input type="radio" name="" id=""><li>Dolly 300ml</li>
+                        <input type="radio" name="" id=""><li>Fanta 300ml</li>
+                      </ul>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-success" >Comprar</button>
+                    <button type="button" class="btn btn-warning">Adicionar ao carrinho</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="card border border-black" >
+                  <img src="imagem pastel/pastel-de-chocolate.jpg" class="img-card" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Pastel de Chocolate Meio-Amargo</h5>  <ul class="card-text">
+                      <li>Médio</li>
+                      <li>Grande</li>
+                    </ul>
+                    <a href="#" type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal14">Ver mais</a>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="modal fade" id="exampleModal14" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Pastel de chocolate meio amargo</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="chocolate-meio-amargo"></div>
+                      <h6>Acompanhamentos</h6>
+                      <form action="" class="acompanhamentos-form"> 
+                        <ul class="ul-aompanhamentos">
+                          <input type="radio" name="" id=""><li>Coca-Cola 300ml</li>
+                          <input type="radio" name="" id=""><li>Dolly 300ml</li>
+                          <input type="radio" name="" id=""><li>Fanta 300ml</li>
+                        </ul>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-success">Comprar</button>
+                      <button type="button" class="btn btn-warning">Adicionar ao carrinho</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-3">
+                  <div class="card border border-black" >
+                      <img src="imagem pastel/pastel-de-leitecondensado-com-goiabada.jpg" class="img-card" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Pastel de Leite Condensado com Goiabada</h5>
+                        <ul class="card-text">
+                          <li>Médio</li>
+                          <li>Grande</li>
+                        </ul>
+                        <a href="#" type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal15">Ver mais</a>
+                      </div>
+                    </div>
+              </div>
+  
+              <div class="modal fade" id="exampleModal15" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Pastel de leite condensado com goiaba</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="leite-condensado-goiaba"></div>
+                      <h6>Acompanhamentos</h6>
+                      <form action="" class="acompanhamentos-form"> 
+                        <ul class="ul-aompanhamentos">
+                          <input type="radio" name="" id=""><li>Coca-Cola 300ml</li>
+                          <input type="radio" name="" id=""><li>Dolly 300ml</li>
+                          <input type="radio" name="" id=""><li>Fanta 300ml</li>
+                        </ul>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-success">Comprar</button>
+                    <button type="button" class="btn btn-warning">Adicionar ao carrinho</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-3">
+                  <div class="card border border-black" >
+                      <img src="imagem pastel/pastel-de-brigadeiro.jpg" class="img-card" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Pastel de Brigadeiro com Morango</h5>
+                        <ul class="card-text">
+                          <li>Médio</li>
+                          <li>Grande</li>
+                        </ul>
+                        <a href="#" type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal16">Ver mais</a>
+                      </div>
+                    </div>
+              </div>
+  
+              <div class="modal fade" id="exampleModal16" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Pastel de brigadeiro com morango</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="brigadeiro-com-morango"></div>
+                      <h6>Acompanhamentos</h6>
+                      <form action="" class="acompanhamentos-form"> 
+                        <ul class="ul-aompanhamentos">
+                          <input type="radio" name="" id=""><li>Coca-Cola 300ml</li>
+                          <input type="radio" name="" id=""><li>Dolly 300ml</li>
+                          <input type="radio" name="" id=""><li>Fanta 300ml</li>
+                        </ul>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-success">Comprar</button>
+                      <button type="button" class="btn btn-warning">Adicionar ao carrinho</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+           
+          </div>
+
+          <div class="row">
+
+            <div class="col-3">
+              <div class="card border border-black" >
+                  <img src="imagem pastel/combo1.jpg" class="img-card" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">COMBO: Pastel + Coca-Cola + Porção de Batata Frita (300g)</h5>
+                    <ul class="card-text">
+                      <li>Calabresa</li>
+                      <li>Pizza</li>
+                      <li>Frango</li>
+                      <li>Carne</li>
+                    </ul>
+                    <a href="#" type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal17">Ver mais</a>
+                  </div>
+                </div>
+            </div>
+  
+            <div class="modal fade" id="exampleModal17" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Combo 1</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="combo1"></div>
+                    <h6>Acompanhamentos</h6>
+                    <form action="" class="acompanhamentos-form"> 
+                      <ul class="ul-aompanhamentos">
+                        <input type="radio" name="" id=""><li>Coca-Cola 300ml</li>
+                        <input type="radio" name="" id=""><li>Dolly 300ml</li>
+                        <input type="radio" name="" id=""><li>Fanta 300ml</li>
+                      </ul>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-success" >Comprar</button>
+                    <button type="button" class="btn btn-warning">Adicionar ao carrinho</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="card border border-black" >
+                  <img src="imagem pastel/combo2.jpg" class="img-card" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">COMBO: Pastel G + Pastel M + Suco de Laranja (500ml)</h5>
+                    <ul class="card-text">
+                      <li>Calabresa</li>
+                      <li>Pizza</li>
+                      <li>Frango</li>
+                      <li>Carne</li>
+                    </ul>
+                    <a href="#" type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal18">Ver mais</a>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="modal fade" id="exampleModal18" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Combo 2</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="combo2"></div>
+                      <h6>Acompanhamentos</h6>
+                      <form action="" class="acompanhamentos-form"> 
+                        <ul class="ul-aompanhamentos">
+                          <input type="radio" name="" id=""><li>Coca-Cola 300ml</li>
+                          <input type="radio" name="" id=""><li>Dolly 300ml</li>
+                          <input type="radio" name="" id=""><li>Fanta 300ml</li>
+                        </ul>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-success">Comprar</button>
+                      <button type="button" class="btn btn-warning">Adicionar ao carrinho</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-3">
+                  <div class="card border border-black" >
+                      <img src="imagem pastel/combo3.jpg" class="img-card" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">COMBO: 4 Pastéis + Garrafa de Caldo de Cana (700ml) </h5>
+                        <ul class="card-text">
+                          <li>Calabresa</li>
+                          <li>Pizza</li>
+                          <li>Frango</li>
+                          <li>Carne</li>
+                        </ul>
+                        <a href="#" type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal19">Ver mais</a>
+                      </div>
+                    </div>
+              </div>
+  
+              <div class="modal fade" id="exampleModal19" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Combo 3</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="combo3"></div>
+                      <h6>Acompanhamentos</h6>
+                      <form action="" class="acompanhamentos-form"> 
+                        <ul class="ul-aompanhamentos">
+                          <input type="radio" name="" id=""><li>Coca-Cola 300ml</li>
+                          <input type="radio" name="" id=""><li>Dolly 300ml</li>
+                          <input type="radio" name="" id=""><li>Fanta 300ml</li>
+                        </ul>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-success">Comprar</button>
+                      <button type="button" class="btn btn-warning">Adicionar ao carrinho</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-3">
+                  <div class="card border border-black" >
+                      <img src="imagem pastel/combo4.jpg" class="img-card" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title" id="title-combo4">COMBO: 10 Pastéis Sortidos Tamanho G</h5>
+                        <ul class="card-text">
+                          <li>Calabresa</li>
+                          <li>Pizza</li>
+                          <li>Frango</li>
+                         
+                        </ul>
+                        <a href="#" type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal20">Ver mais</a>
+                      </div>
+                    </div>
+              </div>
+  
+              <div class="modal fade" id="exampleModal20" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Combo 4</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="combo4"></div>
+                      <h6>Acompanhamentos</h6>
+                      <form action="" class="acompanhamentos-form"> 
+                        <ul class="ul-aompanhamentos">
+                          <input type="radio" name="" id=""><li>Coca-Cola 300ml</li>
+                          <input type="radio" name="" id=""><li>Dolly 300ml</li>
+                          <input type="radio" name="" id=""><li>Fanta 300ml</li>
+                        </ul>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-success">Comprar</button>
+                    <button type="button" class="btn btn-warning">Adicionar ao carrinho</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+           
+          </div>
+      </div>
+      
+  </div>
+  </div>
+      
+  
+   <!-- Footer -->
+<footer class="text-center text-lg-start  text-muted" >
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="container">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4" >
+            <img src="img/logo-edit-final.png">Pastel da feira
+          </h6>
+          <p>
+            Somos uma pastelaria, vendemos pastéis.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Mais informações
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Trabalhe conosco</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Sobre nós</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Para empresas</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            outros links
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Politíca de responsabilidade</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Nós e o meio ambiente</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Orders</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Ajuda</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contate-nos</h6>
+          <p><i class="fas fa-home me-3 text-secondary"></i>São Paulo, R. Dom José Antônio do Couto</p>
+          <p>
+            <i class="fas fa-envelope me-3 text-secondary"></i>
+            pasteldafeira.0290@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3 text-secondary"></i> 55+ (11) 9999-999</p>
+          <p><i class="fas fa-map-location me-3 text-secondary"></i>   VENHA NOS VISITAR</p>
+
+         
+        </div>
+        <!-- Grid column -->
+      </div>
+      
+    </div>
+     
+    
+     
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4 Copyright border-top" style="background-color: #3c3c3c">
+    © 2023 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">pasteldafeira.com.br</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+    
+<script type="text/javascript"src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

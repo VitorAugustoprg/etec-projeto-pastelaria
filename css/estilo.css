@@ -1,0 +1,646 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+@font-face{
+    font-family: 'subtitulo';
+    src: url('../fontes/DancingScript-VariableFont_wght.ttf');
+}
+.body-contact{
+    background-image: url('../img-formularo/orange-wallpaper1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    background-image: url('../img/fundo-navbar.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar a{
+    font-size: 16pt;
+    font-weight: bold
+}
+
+.car{
+
+    width: 90vw;
+    height:630px;
+    margin-top: 20px;
+
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.img-card{
+    width: auto;
+    height: 18rem;
+}
+.row{ 
+   
+    margin-bottom: 30px;
+}
+.img-card:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.card-body{
+    padding: auto;
+}
+h5{
+    font-weight: bolder;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+#title-combo4{
+    margin-bottom: 30px;
+}
+.btn{
+    font-weight: bold;
+}
+.col-6{
+    margin-top: 309px;
+}
+#col-about-us{
+    border-right: 1px solid black;
+}
+#col-about-us p {
+       text-align: center;
+}
+h2{
+    font-family: cursive;
+    font-weight: bold;
+    padding-bottom: 23px;
+}
+footer p{
+    color:  #c2d4f1;
+}
+footer h6{
+    color: #ffff;
+}
+.text-reset:hover{
+        color: darkgoldenrod;
+        text-decoration: underline darkgoldenrod;
+        font-size: 11pt;
+}
+.pastel-de-calabresa{
+    height: 300px;
+    width: 450px;
+
+    background-image: url('/img/pastel-de-calabresa.jpg');
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+
+    border: 1px solid black;
+}
+.pasteldecarne3{
+    height: 300px;
+    width: 450px;
+
+    background-image: url('/img/pasteldecarne3.jpg');
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+
+    border: 1px solid black;
+}
+.pasteldecarneseca{
+    height: 300px;
+    width: 450px;
+
+    background-image: url('/img/pasteldecarneseca.jpg');
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+
+    border: 1px solid black;
+}
+.pasteldefrango{
+    height: 300px;
+    width: 450px;
+
+    background-image: url('/img/pasteldefrango.png');
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+
+    border: 1px solid black;
+}
+.carne-com-ovos{
+    height: 300px;
+    width: 450px;
+
+    background-image: url("../imagem pastel/Carne-com-Ovos.jpg");
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+
+    border: 1px solid black;
+}
+.pasteldepalmitocomqueijoralado{
+    height: 300px;
+    width: 450px;
+
+    background-image: url("../imagem pastel/Palmito-com-queijo.jpg");
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+
+    border: 1px solid black;
+}
+.frangocomcatupiry{
+    height: 300px;
+    width: 450px;
+
+    background-image: url("../imagem pastel/Frango-com-catupiry.jpg");
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+
+    border: 1px solid black;
+}
+.palmitocomcamarao{
+    height: 300px;
+    width: 450px;
+
+    background-image: url("../imagem pastel/Palmito-com-camarao.jpg");
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+
+    border: 1px solid black;
+}
+.queijocompresunto{
+    height: 300px;
+    width: 450px;
+
+    background-image: url("../imagem pastel/Queijo-e-Presunto.jpg");
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+
+    border: 1px solid black;
+}
+.palmitocheddar{
+    height: 300px;
+    width: 450px;
+
+    background-image: url("../imagem pastel/Palmito-com-cheddar.jpg");
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+
+    border: 1px solid black;
+}
+.calabresaqueijo{
+    height: 300px;
+    width: 450px;
+
+    background-image: url("../imagem pastel/Calabresa-com-queijo.jpg");
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+
+    border: 1px solid black;
+}
+.calabresaqueijo2{
+    height: 300px;
+    width: 450px;
+
+    background-image: url("../imagem pastel/Calabresa-com-queijo.jpg");
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+
+    border: 1px solid black;
+}
+.chocolatemorango{
+    height: 300px;
+    width: 450px;
+
+    background-image: url("../imagem pastel/pastel-de-chocolate-com-morango.jpg");
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+
+    border: 1px solid black;
+}
+.chocolatemeioamargo{
+    height: 300px;
+    width: 450px;
+
+    background-image: url("../imagem pastel/pastel-de-chocolate.jpg");
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+
+    border: 1px solid black;
+}
+.leitecondensado{
+    height: 300px;
+    width: 450px;
+
+    background-image: url("../imagem pastel/pastel-de-leitecondensado-com-goiabada.jpg");
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+
+    border: 1px solid black;
+}
+.brigadeirocommorango{
+    height: 300px;
+    width: 450px;
+
+    background-image: url("../imagem pastel/pastel-de-chocolate-com-morango.jpg");
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+
+    border: 1px solid black;
+}
+.chocolate-meio-amargo{
+    height: 300px;
+    width: 450px;
+
+    background-image: url("../imagem pastel/pastel-de-chocolate.jpg");
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+
+    border: 1px solid black;
+}
+.leite-condensado-goiaba{
+    height: 300px;
+    width: 450px;
+
+    background-image: url("../imagem pastel/pastel-de-leitecondensado-com-goiabada.jpg ");
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+
+    border: 1px solid black;
+}
+.palmito-vheddar{
+    height: 300px;
+    width: 450px;
+
+    background-image: url("../imagem pastel/Palmito-com-cheddar.jpg ");
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+
+    border: 1px solid black;
+}
+.pizza{
+    height: 300px;
+    width: 450px;
+
+    background-image: url("../imagem pastel/Pizza.jpg ");
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+
+    border: 1px solid black;
+}
+.calabresa-queijo{
+    height: 300px;
+    width: 450px;
+
+    background-image: url("../imagem pastel/Calabresa-com-queijo.jpg");
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+
+    border: 1px solid black;
+}
+.combo1{
+    height: 300px;
+    width: 450px;
+
+    background-image: url("../imagem pastel/combo1.jpg");
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: contain;
+
+    
+}
+.combo1{
+    height: 300px;
+    width: 450px;
+
+    background-image: url("../imagem pastel/combo1.jpg");
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: contain;
+
+    
+}
+.combo2{
+    height: 300px;
+    width: 450px;
+
+    background-image: url("../imagem pastel/combo2.jpg");
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: contain;
+
+    
+}
+.combo3{
+    height: 300px;
+    width: 450px;
+
+    background-image: url("../imagem pastel/combo3.jpg");
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: contain;
+
+    
+}
+.combo4{
+    height: 300px;
+    width: 450px;
+
+    background-image: url("../imagem pastel/combo4.jpg");
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: contain;
+
+    
+}
+
+.modal-header{
+    display: flex;
+   flex-direction: column-reverse;
+}
+legend{
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.input-box input{
+    border-style: none;
+    border-bottom: 1px solid black;
+    width: 350px;
+    text-align: center;
+}
+.input-box textarea{
+    margin-top: 20px;
+}
+.input-box select{
+    margin-top: 10px;
+}
+.input-box input:hover{
+    border-bottom: 2px solid darkgoldenrod;
+}
+.icon-pen{
+    display: flex;
+    margin-bottom: 10px;
+}
+.icon-pen i{
+    padding-right: 15px;
+}
+.icon-envelope{
+    display: flex;
+}
+.icon-envelope i{
+    padding-right: 10px;
+}
+.botoes{
+    display: flex;
+    flex-direction: row;
+   margin-left: 10%;
+}
+.botoes button{
+    margin-right: 50%;
+    margin-top: 10px;
+
+}
+iframe{
+    margin-top: 5px;
+}
+.centralizar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 50px;
+  
+}
+
+.acompanhamentos-form{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.ul-aompanhamentos{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+.ul-aompanhamentos li input{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.ul-aompanhamentos li{
+    padding: 15px;
+    margin: 0;
+    border: 0;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+.modal-body h6{
+    background-color: #000000;
+    color: #ffff;
+    width: 450px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+.total-footer{
+    padding-right: 100px;
+    font-weight: bold;
+}
+
+.modal-title{
+    font-weight: bold;
+}   
+.text-uppercase {
+    padding: 10px;
+    
+}
+
+.rounded-circle{
+    width: 375px;
+    height: 375px;
+}
+.subtitulo{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    color: #000000;
+    padding-top: 150px;
+    padding-bottom: 80px;
+    font-family: 'subtitulo';
+    font-size: 4rem;
+}
+.Copyright{
+    color: #c2d4f1;
+    font-size: 11pt;
+}
+footer{
+     background-color: #3c3c3c;
+}
+#titulo{
+    text-align: justify;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    padding: 20px;
+}
+.container h3,h2{
+    text-align: center;
+}
+.container h2{
+    color: green;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.container-depoimentos{
+    margin-top: 120px;
+}
+.depoimentos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.depoimentos p{
+    width: auto;
+}
+.img-depoimento{
+    width: 70px;
+    height: 70px;
+}
+.legend{
+    text-align: center;
+    padding: 0;
+}
+.depoimentos .text-center{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+.texto-depoimentos{
+    text-align: center;
+}
+
+footer h6{
+    font-size: 10px;
+}
+footer{
+    padding: auto;
+}
+.fundo-quadrado{
+   
+    background: linear-gradient(90deg, rgba(250, 68, 0, 0.56) 22.97%, rgba(255, 69, 0, 0.00) 100%);
+    width: 100%;
+    display: flex;
+    height: 440px;
+    margin-top: 265px;
+    margin-bottom: 233px;
+}
+.fundo-quadrado .icons img{
+    width: 55px;
+    height: 55px;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 50px;
+}
+.icons .item-icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.bloco-form{
+    width: 620px;
+    height: 575px;
+    background-color: #ffff;
+
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 5px 5px 35px 0px #000;
+
+    margin-left: 584px;
+    margin-top: -35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-right: 10px;
+}
+.bloco-form form h3{
+    text-align: center;
+}
+
+.bloco-form form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bloco-form input{
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 30px;
+   
+}
+.cont-form{
+    display: flex;
+    flex-direction: column;
+}
+.fundo-quadrado p{
+    color: #ffff;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.btn .btn-outline-light{
+    background-color: rgb(255, 196, 0);
+    
+}
